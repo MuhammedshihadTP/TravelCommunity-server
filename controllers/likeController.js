@@ -1,6 +1,6 @@
 const { getSocketIO } = require('../config/socketIO');
-const Post = require('../models/post');
-const User = require('../models/user');
+const Post = require('../models/Post');
+const User = require('../models/User');
 
 const likePost = async (req, res) => {
   const { postId } = req.params;
